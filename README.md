@@ -1,75 +1,68 @@
-# Presto.it
+<div align="center">
+  <h1>🚀 Presto.it</h1>
+  <p>A modern second-hand marketplace platform</p>
+  
+  <p>
+    <a href="#english">🇬🇧 English</a> •
+    <a href="#italiano">🇮🇹 Italiano</a>
+  </p>
 
-[English](#english) | [Italiano](#italiano)
+  <p>
+    <img src="https://img.shields.io/badge/PHP-55.5%25-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+    <img src="https://img.shields.io/badge/Blade-36.3%25-F05340?style=for-the-badge&logo=laravel&logoColor=white" />
+    <img src="https://img.shields.io/badge/CSS-5.5%25-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+    <img src="https://img.shields.io/badge/JavaScript-2.7%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  </p>
+</div>
 
 ## English
 
 Presto.it is an e-commerce platform inspired by Vinted, focused on buying and selling second-hand items.
 
-### Tech Stack
+### ⚡ Tech Stack
 
-* **Bootstrap** - For responsive styling and UI components
-* **GSAP.js** - For client-side animations and interactions
-* **Laravel** - As the PHP backend framework
-* **Livewire** - For dynamic components without writing JavaScript
+<table>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" width="40" /><br />Bootstrap</td>
+    <td align="center"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="40" /><br />GSAP.js</td>
+    <td align="center"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/laravel/laravel.png" width="40" /><br />Laravel</td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/51960834" width="40" /><br />Livewire</td>
+  </tr>
+</table>
 
-### Key Features
+### 🎯 Key Features
 
-* User registration and authentication
-* Product listing and management
-* Advanced search system
-* User-to-user messaging
-* Transaction management
-* Responsive design for all devices
+<table>
+  <tr>
+    <td>👤 User Authentication</td>
+    <td>📦 Product Management</td>
+    <td>🔍 Advanced Search</td>
+  </tr>
+  <tr>
+    <td>💬 User Messaging</td>
+    <td>💳 Transactions</td>
+    <td>📱 Responsive Design</td>
+  </tr>
+</table>
 
-### Installation
-
-1. Clone the repository
+### 🚀 Quick Start
 
 ```bash
+# Clone repository
 git clone https://github.com/amitpandher03/presto.it.git
-```
 
-2. Install PHP dependencies
+# Install dependencies
+composer install && npm install
 
-```bash
-composer install
-```
-
-3. Install JavaScript dependencies
-
-```bash
-npm install
-```
-
-4. Configure environment
-
-```bash
+# Environment setup
 cp .env.example .env
-# Edit .env file with your configurations
-```
-
-5. Generate application key
-
-```bash
 php artisan key:generate
-```
 
-6. Run database migrations
-
-```bash
+# Database setup
 php artisan migrate
-```
 
-7. Compile assets
-
-```bash
+# Start development
 npm run dev
-```
-
-8. Start the server
-
-```bash
 php artisan serve
 ```
 
@@ -144,18 +137,12 @@ npm run dev
 php artisan serve
 ```
 
-## Project Statistics
+---
 
-### Languages
-- PHP (55.5%)
-- Blade (36.3%)
-- CSS (5.5%)
-- JavaScript (2.7%)
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+<div align="center">
+  <h2>🤝 Contributing</h2>
+  <p>Pull requests are welcome! For major changes, please open an issue first.</p>
+  
+  <h2>📝 License</h2>
+  <p>This project is licensed under the <a href="LICENSE">MIT License</a></p>
+</div>
